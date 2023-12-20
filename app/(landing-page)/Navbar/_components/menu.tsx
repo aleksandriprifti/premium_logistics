@@ -57,7 +57,7 @@ const components: { title: string; href: string; description: string }[] = [
 export function NavigationMenuBar() {
   return (
     <NavigationMenu>
-      <NavigationMenuList className="hidden md:flex md:space-x-4">
+      <NavigationMenuList className="hidden  md:flex md:space-x-4">
         <NavigationMenuItem>
           <NavigationMenuTrigger>Features</NavigationMenuTrigger>
           <NavigationMenuContent>

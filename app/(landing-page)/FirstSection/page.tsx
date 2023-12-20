@@ -9,7 +9,7 @@ import CardWithForm from "./_components/Card";
 function FirstSection() {
   return (
     <div>
-      <section className="py-10 space-y-10 md:py-20 bg-[#E5E4E2]">
+      <section className="py-10 space-y-10 md:py-20 bg-[url('/images/home.jpg')] bg-cover">
         <div className="container mx-auto text-center md:w-1/2">
           <div className="justify-center pb-10 text-6xl felx md:px-20">
             The best platform for Cross-Functional Work!
@@ -31,7 +31,7 @@ function FirstSection() {
             </Link>
           </div>
         </div>
-        <div className="container items-center justify-center space-y-10 md:pt-10 md:flex md:mx-auto md:space-x-10 bg-[#E5E4E2]">
+        <div className="container items-center justify-center space-y-10 md:pt-10 md:flex md:mx-auto md:space-x-10 ">
           <motion.div
             initial={{ y: 100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
