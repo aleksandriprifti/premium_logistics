@@ -14,7 +14,7 @@ import { Label } from "@/components/ui/label";
 
 export default function CardWithForm() {
   return (
-    <Card className="w-[450px] rounded">
+    <Card className="w-[450px] rounded-3xl">
       <CardHeader>
         <CardTitle>Tracking</CardTitle>
         <CardDescription>Track your order.</CardDescription>

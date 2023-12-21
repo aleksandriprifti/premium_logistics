@@ -73,8 +73,7 @@ export function NavigationMenuBar() {
                       Premium Logistics
                     </div>
                     <p className="text-sm leading-tight text-muted-foreground">
-                      Beautifully designed components built with Radix UI and
-                      Tailwind CSS.
+                      Shipping goods all over the WORLD
                     </p>
                   </a>
                 </NavigationMenuLink>
